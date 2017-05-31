@@ -1,11 +1,11 @@
-package com.mak.sort.bubblesort
+package com.mak.sort.bubble
 
-object App {
+object Application {
   def main(args: Array[String]): Unit = {
     val arr = Array.fill(10)(math.random)
     println("Before Sorting unordered elements:\n")
     arr.foreach { x => println(x) }
-    bubbleSort.sort(arr)
+    BubbleSort.sort(arr)
     println("\nAfter Sorting ordered elements:\n")
     arr.foreach { x => println(x) }
   }
