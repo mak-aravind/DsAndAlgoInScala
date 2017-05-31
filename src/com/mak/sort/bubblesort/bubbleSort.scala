@@ -1,6 +1,6 @@
 package com.mak.sort.bubblesort
 
-object BubbleSort {
+object bubbleSort {
     def sort(a:Array[Double]) : Unit = {
     	for (i <- 0 until a.length-1){
     		for (j <- 0 until a.length-1-i){
